@@ -61,6 +61,6 @@ Since in commentary i have heard many times commentator saying that it is easier
 
 So i just used took the average and rounded the probabilities to write the code for making a table so you can find the code at [link]().
 
-![dp2](C:\Users\lenovo\Desktop\AAD-PROJECT\screenshots\dp2.jpg) 
+<img src="./screenshots/dp2.jpg" width=800>
 
 This shows that a team is expected to score around 160 before the start of the game but if they loose early wickets they might not be able to reach there.
