@@ -30,9 +30,13 @@ The code is hard-coded in such a manner that it needs the file gabba_test.csv
 
 # Results
 
-I tried to find the Player of the Match for the famous Gabba test played between India and Australia in 2021.
+I tried it to find the Player of the Match for the famous Gabba test played between India and Australia in 2021.
 
 <img src="output.jpg">
+
+The network looks like:
+
+<img src="filename.png">
 
 This shows that Shardul Thakur should be the player of the match, since he had more impact (in terms of runs and wickets). But Rishab Pant was chosen as POM (and his knock was one of the most remarkable one).
 
