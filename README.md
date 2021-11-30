@@ -84,7 +84,7 @@ It can be used by the selectors to check whether the batters they have picked ca
 
 Therefoe they can use Ford fulkerson's Algorithm or Kuhn's Algorithm to check if the team is selected properly or not.
 
-For the details click [here](Maximum_Bipartite_Matching) 
+For the details click [here](Maximum_Bipartite_Matching.md) 
 
 # Set Cover
 
