@@ -1,0 +1,15 @@
+Player          Points
+MS DHONI        4
+FAF DU PLESSIS  121
+R GAIKWAD       45*2=90(Captain)
+S GILL          69
+R JADEJA        78
+S NARINE        66
+V IYER          85*1.5=127.5(Vice Captain)
+S THAKUR        83
+L FERGUSON      19
+V CHAKRAVARTHY  4
+S MAVI          62
+
+7 players were part of the team that scored the highest point on that day
+Total Point score were 723.5.
