@@ -90,4 +90,4 @@ From the data of partnerships in the current season we can figure out which batt
 
 In case of ties in knockout games, it is essential to determine a winner. In football they have extra-time and penalty which though is a better way to determine the result but in cricket we have super-over. To determine the outcome of a 50 over match we play a single over match doesn't seem to be a nice idea. I think we can use their rank (calculated by PageRank Algorithm) based on the matches played in group stage to decide the winner.
 
-[Click here for more info](Pagerank/Team_Ranking/)
+[Click here for more info](Pagerank/Team_ranking/)
