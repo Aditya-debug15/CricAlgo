@@ -82,7 +82,7 @@ for(int i=1;i<number_of_balls;i++)
 
 play_style is used to store what kind of shot we should play that will maximize our function.
 
-[For the full code click here]()
+[For the full code click here](DP/codes/example2.cpp)
 
 <img src="screenshots/dp3.jpg">
 

@@ -84,15 +84,28 @@ It can be used by the selectors to check whether the batters they have picked ca
 
 Therefoe they can use Ford fulkerson's Algorithm or Kuhn's Algorithm to check if the team is selected properly or not.
 
-# Flows
+For the details click [here](Maximum_Bipartite_Matching) 
 
-We can also use ford fulkerson Algorithm to select the backup batters, usually a team has 3 backup players and we would like to maximize the total number of positions covered by them.
+# Set Cover
 
+To select backup players we want them to have the maximum positions covered.
 
+Most of the times selectors have to select 3 players from a pool of 6-7 players, so total combinations possible are 7C3.
 
-For the details about the above two click [here](Maximum_Bipartite_Matching) 
+For each combination we would find their set cover and would choose the set of players that have the highest set cover. 
 
+This is solved without using but here's a twist, there are covid times going around the question is changed we are given a pool of players, we want the minimum number of players so that we have a backup for every position.
 
+## The procedure
+### Greedy choice property
+We need to select the set that contains the most unique elements.
+
+### Forming an induction
+In the later stages we need to pick the set that contains most number of elements that are uncovered
+
+Though we already know that greedy method is not optimum it takes k.ln(n) extra members but the optimum solution be exponential.
+
+Though the pool of players is not that large so we may choose to go with either of the procedure.
 
 # Linear Programming
 

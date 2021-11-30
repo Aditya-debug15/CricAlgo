@@ -28,4 +28,41 @@ The graph would look like:
 
 Here an edge can have 2 values that is either 1 or 0. 1 meaning the batsman is going to play at that position, 0 meaning the opposite. We would apply Ford-Fulkerson Algorithm for max flow between Source and Sink which will give us our desired outcome.
 
-This could have been done using DFS or Kuhn's Algorithm.
+## Ford - Fulkerson Psuedo code
+1. Set Total flow equal to 0
+2. Repeat the below steps till we have a valid path from source s to sink t
+    1. Run depth first search to find the path from s to t
+    2. Let the minimum capacity value on the path be f
+    3. Add f to the total flow
+3. On this path for every edge we need to do
+    1. Decrease capacity of edge u->v by f
+    2. Increase capacity of edge v->u by f
+
+## code
+
+```cpp
+    int sent = dfs(s,t,LARGE_NUMBER);
+    while (sent >0) {
+        max_flow += sent;
+        memset(visited, 0, sizeof(visited));
+        sent = dfs(s,t,LARGE_NUMBER);
+    }
+
+    // the dfs function is
+    int dfs(int s, int t, int minimum) {
+    visited[s] = true;
+    if (s == t)
+        return minimum;
+    for (int i = 0; i < N; i++) {
+        int flow_capacity = graph[s][i] - Flow[s][i];
+        if (!visited[i] && flow_capacity > 0) {
+            if (int sent = dfs (i, t, min (minimum, flow_capacity))) {
+                Flow[s][i] += sent;
+                Flow[i][s] -= sent;
+                return sent;
+            }
+        }
+    }
+    return false;
+}
+```

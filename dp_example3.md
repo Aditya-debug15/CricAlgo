@@ -136,7 +136,7 @@ for(int i=1;i<number_of_balls;i++)
 
  `play_style[i][j]` will be string of three character, if it looks like 'xyz' then that means x is the shot played on a good delivery, y on medium and z on the bad one.
 
-[To the access the full code check]()
+[To the access the full code check](DP/codes/example3.cpp)
 
 <img src="screenshots/dp4.jpg" width =800>
 

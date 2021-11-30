@@ -49,7 +49,7 @@ To calculate f(i,j) we can write a simple program but we need to know the value 
 
 ## Calculating probabilities
 
-I have calculated the probabilities from the code [link]() .
+I have calculated the probabilities from the code [link](DP/codes/data_collection.py) .
 
 I have used [cricsheet.org](https://cricsheet.org/) to get ball by ball data of IPL 2020 and using that i have calculated probability.
 
@@ -59,7 +59,7 @@ Since in commentary i have heard many times commentator saying that it is easier
 
 <img src="./screenshots/dp1.jpeg" width=700> 
 
-So i just used took the average and rounded the probabilities to write the code for making a table so you can find the code at [link]().
+So i just used took the average and rounded the probabilities to write the code for making a table so you can find the code at [link](DP/codes/example1.cpp).
 
 <img src="./screenshots/dp2.jpg" width=800>
 

@@ -82,7 +82,7 @@ for(int n=1;n<number_of_balls;n++)
 }
 ```
 
-This is how the code looks like, i have made cases as array can't take negative values. To see the full code [click here]()
+This is how the code looks like, i have made cases as array can't take negative values. To see the full code [click here](DP/codes/example4.cpp)
 
 Some results:
 
