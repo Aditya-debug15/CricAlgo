@@ -1,8 +1,4 @@
-# Project
-
-# Aditya Malhotra
-
-# 2020101052
+# CricAlgo
 
 Algorithms that we study have great significance in the world where we are living. In every domain algorithms have a huge role to play.
 
