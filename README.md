@@ -1,5 +1,7 @@
 # CricAlgo
 
+# Introduction
+
 Algorithms that we study have great significance in the world where we are living. In every domain algorithms have a huge role to play.
 
 **In Security**
@@ -27,6 +29,10 @@ Through greedy and backtracking approach we can always become winner in the game
 **In cricket**
 
 This is the topic i have chosen. The game now-a-day is highly dependent upon mathematics, statistics and algorithms. There are many applications of it we will talk about many of them.
+
+# Brief Description
+
+The project is a conceptual map of how algorithms plays a huge role in game of cricket. It uses linear programming, dynamic programming, greedy algorithms and PageRank algorithm to build a strong fantasy team, calculate winning chances, implemented Duck Worth Lewis, helps selectors in team selection and find do an unbiased Man of the Match Selection. It uses python and cpp programming languages.
 
 # Brute Force
 
