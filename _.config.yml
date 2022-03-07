@@ -1,0 +1,23 @@
+plugins:
+  - CricAlgo-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - Dynamic_Programming.md
+  - Maximum_Bipartite_Matching.md
+  - Pagerank.md
+  - Project.md
+  - dp_example1.md
+  - dp_example2.md
+  - dp_example3.md
+  - dp_example4.md
+  - dp_example5.md
+  - linear_programming.md
+  - README.md
+  - linear_programming/README.md
+  - Pagerank/README.md
+  - Pagerank/POM/README.md
+  - Pagerank/MVB/README.md
+  - Pagerank/Team_ranking/README.md
+  - PULL_REQUEST_TEMPLATE.md
